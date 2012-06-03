@@ -1,0 +1,24 @@
+* html #outer {height:350px; he\ight:330px;}
+#hex {padding:0; margin:0 auto; list-style:none; width:325px;margin-top:150px;}
+#hex li {display:block; float:left; width:104px; margin-right:4px;  height:120px;}
+#hex li.p1 {padding-left:54px;}
+#hex li.p2 {margin-top:-26px;}
+#hex li a {text-decoration:none; color:#000; cursor:pointer;}
+#hex li a b {display:block; width:0; height:0; overflow:hidden; border-bottom:30px solid #3BB9FF; border-left:52px dotted transparent; border-right:52px dotted transparent;}
+#hex li a span {display:block; width:104px; height:60px; line-height:59px; text-align:center; background:#3BB9FF; font-size:11px; font-family: arial, veradana, sans-serif;}
+#hex li a em {display:block; width:0; height:0; overflow:hidden; border-top:30px solid #3BB9FF; border-left:52px dotted transparent; border-right:52px dotted transparent;}
+/* hack for IE5.5 */
+* html #hex li a b, * html #hex li a em {width:104px; height:30px; w\idth:0; he\ight:0;}
+
+#hex li a.inner b {border-bottom-color:#c60;}
+#hex li a.inner span {background:#c60;}
+#hex li a.inner em {border-top-color:#c60;}
+
+#hex li a:hover {white-space:normal; color:#fff;}
+#hex li a:hover b {border-bottom-color:#56A5EC;}
+#hex li a:hover span {background:#56A5EC;}
+#hex li a:hover em {border-top-color:#56A5EC;}
+
+#hex li a.inner:hover b {border-bottom-color:#a40;}
+#hex li a.inner:hover span {background:#a40;}
+#hex li a.inner:hover em {border-top-color:#a40;}
