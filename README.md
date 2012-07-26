@@ -1,3 +1,1 @@
-# Sample demonstration of Circular menu with hexagonal shape
-
-[Demo](http://circular-menu.heroku.com/)
+# Demonstrates creating a curve with a draggable point, the point moves along the path of the curve
